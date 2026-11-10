@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Circular Lab | GBL</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #263d2b;
+      background: #f5f8f3;
+    }
+    header {
+      background: #145c32;
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+    }
+    nav {
+      background: #103e26;
+      padding: 16px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+    }
+    main {
+      padding: 55px 20px;
+      text-align: center;
+    }
+    h2 { color: #176b3a; }
+    footer {
+      background: #145c32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GREEN CIRCULAR LAB (GBL)</h1>
+    <p>Building a Greener, Smarter and More Inclusive Future</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="projects.html">Projects</a>
+    <a href="work-areas.html">Work Areas</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Welcome to Green Circular Lab</h2>
+    <p>We promote environmental conservation, ICT,
+    entrepreneurship and sustainable community development.</p>
+    <h2>Our Vision</h2>
+    <p>A greener, innovative and inclusive future for Africa.</p>
+    <h2>Our Mission</h2>
+    <p>Empowering young people and communities through
+    technology, environmental action and entrepreneurship.</p>
+  </main>
+
+  <footer>
+    <p>Green Circular Lab (GBL) | Uganda</p>
+    <p>Email: tuhaiseatugonza4@gmail.com</p>
+  </footer>
+</body>
+</html>
