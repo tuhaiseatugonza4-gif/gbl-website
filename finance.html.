@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Financial Reports & Audits | GBL</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    background: #f4f8f4;
+    color: #26352b;
+}
+
+header {
+    background: #075b35;
+    color: white;
+    padding: 28px 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+nav {
+    background: #064326;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px 12px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d7ef9b;
+}
+
+.hero {
+    background: linear-gradient(120deg, #08743f, #4b9c48);
+    color: white;
+    padding: 65px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin: 0 0 12px;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+    padding: 25px 18px;
+}
+
+.section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #00000010;
+}
+
+.section h2 {
+    color: #08743f;
+}
+
+.report {
+    background: #f2f8f1;
+    padding: 18px;
+    margin: 15px 0;
+    border-left: 5px solid #198754;
+    border-radius: 5px;
+}
+
+.report h3 {
+    margin-top: 0;
+    color: #075b35;
+}
+
+.notice {
+    background: #fff5d9;
+    border-left: 5px solid #d49b16;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #063b25;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #d7ef9b;
+}
+
+@media(max-width: 600px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>GREEN CIRCULAR LAB (GBL)</h1>
+    <p>Innovating Today for a Greener and Better Tomorrow</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="finance.html">Financial Reports</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Financial Reports & Audits</h2>
+    <p>Promoting integrity, transparency and accountability in development.</p>
+</section>
+
+<main class="container">
+
+<section class="section">
+    <h2>Our Commitment to Financial Transparency</h2>
+
+    <p>
+    Green Circular Lab (GBL) is committed to responsible,
+    transparent and accountable management of organisational
+    resources. We recognise that public trust, donor confidence
+    and community participation depend on sound financial
+    management.
+    </p>
+
+    <p>
+    We aim to ensure that all funds, donations, grants and
+    contributions received are used for their intended purposes
+    and in accordance with approved organisational procedures.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Financial Management Principles</h2>
+
+    <div class="report">
+        <h3>1. Transparency</h3>
+        <p>We aim to provide clear and accurate financial information to relevant stakeholders.</p>
+    </div>
+
+    <div class="report">
+        <h3>2. Accountability</h3>
+        <p>All organisational resources should be properly recorded and accounted for.</p>
+    </div>
+
+    <div class="report">
+        <h3>3. Proper Documentation</h3>
+        <p>Receipts, payment records, budgets and financial statements should be maintained.</p>
+    </div>
+
+    <div class="report">
+        <h3>4. Responsible Spending</h3>
+        <p>Expenditure should support approved activities and organisational objectives.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Financial Reports</h2>
+
+    <div class="report">
+        <h3>Annual Financial Statements</h3>
+        <p>Annual income, expenditure, assets and liabilities reports.</p>
+        <p><strong>Status:</strong> To be published when available and approved.</p>
+    </div>
+
+    <div class="report">
+        <h3>Project Financial Reports</h3>
+        <p>Financial information showing how project resources are allocated and utilised.</p>
+        <p><strong>Status:</strong> To be published when available.</p>
+    </div>
+
+    <div class="report">
+        <h3>Donor Accountability Reports</h3>
+        <p>Reports explaining how grants, donations and partnership contributions are used.</p>
+        <p><strong>Status:</strong> To be published when available.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Independent Audits</h2>
+
+    <p>
+    GBL intends to promote independent financial reviews
+    and audits in accordance with applicable requirements
+    and its organisational capacity.
+    </p>
+
+    <div class="notice">
+        <strong>Important Notice:</strong>
+        No completed independent audit report is currently
+        presented on this page. Verified audit reports will
+        be published when they have been prepared and approved.
+    </div>
+</section>
+
+<section class="section">
+    <h2>Anti-Corruption and Financial Integrity</h2>
+
+    <p>
+    GBL does not support fraud, bribery, corruption,
+    embezzlement, financial misconduct or misuse of
+    organisational resources.
+    </p>
+
+    <p>
+    We aim to strengthen internal controls, ethical leadership,
+    proper procurement procedures and safe reporting of
+    suspected financial misconduct.
+    </p>
+
+    <p>
+    Our anti-corruption policy provides further guidance
+    on preventing and addressing corruption.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Our Accountability Promise</h2>
+
+    <p>
+    Green Circular Lab promises to promote integrity in
+    financial management, responsible use of resources
+    and transparency in its development activities.
+    We welcome constructive engagement from donors,
+    partners and the communities we serve.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Contact and Enquiries</h2>
+
+    <p><strong>Organisation:</strong> Green Circular Lab (GBL)</p>
+    <p><strong>Country:</strong> Uganda</p>
+    <p><strong>Email:</strong>
+    <a href="mailto:tuhaiseatugonza4@gmail.com">
+    tuhaiseatugonza4@gmail.com</a></p>
+
+    <p><strong>Telephone:</strong> +256 764 915 894</p>
+
+    <p><strong>Website:</strong>
+    <a href="https://tuhaiseatugonza4-gif.github.io/gbl-website/">
+    Visit GBL Website</a></p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Green Circular Lab (GBL). All Rights Reserved.</p>
+    <p>Integrity in Action. Transparency in Leadership.</p>
+</footer>
+
+</body>
+</html>
+
