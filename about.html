@@ -4,251 +4,241 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Financial Reports | Green Circular Lab</title>
-
+<title>About Us | Green Circular Lab</title>
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+* { box-sizing: border-box; }
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f8f4;
-    color: #26352b;
-    line-height: 1.7;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  color: #26352b;
+  background: #f5f8f4;
 }
-
 header {
-    background: #075c36;
-    color: white;
-    padding: 25px 7%;
+  background: #075b35;
+  color: white;
+  padding: 25px 8%;
+  text-align: center;
 }
-
-.logo {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-header p {
-    color: #d8f2df;
-}
-
+header h1 { margin: 0; }
+header p { margin: 5px 0; }
 nav {
-    background: #064529;
-    padding: 15px 7%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  background: #064629;
+  padding: 14px;
+  text-align: center;
 }
-
 nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
 }
-
-nav a:hover {
-    color: #f5d64e;
-}
-
+nav a:hover { color: #d7f5a3; }
 .hero {
-    background: linear-gradient(120deg, #075c36, #27965b);
-    color: white;
-    padding: 75px 7%;
-    text-align: center;
+  background: linear-gradient(#0007,#0007),
+  url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600')
+  center/cover;
+  color: white;
+  padding: 90px 8%;
+  text-align: center;
 }
-
-.hero h1 {
-    font-size: 38px;
-    margin-bottom: 15px;
-}
-
+.hero h2 { font-size: 40px; margin: 0; }
 .container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 45px 20px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 35px 20px;
 }
-
-h2 {
-    color: #08723f;
-    margin-bottom: 15px;
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #0000000d;
 }
-
-.section {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    box-shadow: 0 3px 12px rgba(0,0,0,.06);
+h2 { color: #08733d; }
+h3 { color: #216b3e; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 18px;
 }
-
-ul {
-    padding-left: 25px;
+.card {
+  background: #edf5ec;
+  padding: 20px;
+  border-left: 5px solid #168348;
+  border-radius: 7px;
 }
-
-.status {
-    background: #fff5d8;
-    border-left: 5px solid #e6ae22;
-    padding: 18px;
-    margin-top: 15px;
-}
-
-.report {
-    border: 1px solid #dce8df;
-    padding: 20px;
-    border-radius: 8px;
-    margin-top: 15px;
-}
-
-.report a {
-    color: #08723f;
-    font-weight: bold;
-}
-
-.contact {
-    background: #e7f3e9;
-    padding: 25px;
-    border-radius: 10px;
-}
-
 footer {
-    background: #063b25;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    margin-top: 40px;
+  background: #064629;
+  color: white;
+  text-align: center;
+  padding: 25px;
 }
-
-footer a {
-    color: #f5d64e;
+footer a { color: #d7f5a3; }
+@media(max-width:600px) {
+  nav a { display: inline-block; margin: 5px; }
+  .hero h2 { font-size: 29px; }
 }
 </style>
 </head>
-
 <body>
 
 <header>
-    <div class="logo">GREEN CIRCULAR LAB (GBL)</div>
-    <p>Innovating Today for a Greener and Better Tomorrow</p>
+  <h1>GREEN CIRCULAR LAB (GBL)</h1>
+  <p>Innovating Today for a Greener and Better Tomorrow</p>
 </header>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="projects.html">Projects</a>
-    <a href="governance.html">Governance</a>
-    <a href="finance.html">Financial Reports</a>
-    <a href="partnerships.html">Partnerships</a>
-    <a href="contact.html">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="projects.html">Projects</a>
+  <a href="governance.html">Governance</a>
+  <a href="finance.html">Financial Reports</a>
+  <a href="policies.html">Policies</a>
+  <a href="contact.html">Contact</a>
 </nav>
 
-<section class="hero">
-    <h1>Financial Reports & Audits</h1>
-    <p>Transparency, Accountability and Responsible Financial Management</p>
-</section>
+<div class="hero">
+  <h2>About Green Circular Lab</h2>
+  <p>Building a greener, smarter and more inclusive future.</p>
+</div>
 
 <main class="container">
 
-<section class="section">
-    <h2>Our Commitment to Financial Transparency</h2>
-    <p>
-    Green Circular Lab (GBL) is committed to maintaining
-    high standards of financial integrity, accountability
-    and transparency. We recognise that every resource
-    entrusted to our organisation should be managed
-    responsibly and used for its intended purpose.
-    </p>
+<section>
+  <h2>1. Who We Are</h2>
+  <p>
+    Green Circular Lab (GBL) is a youth-driven development initiative
+    based in Uganda, committed to building a greener, smarter and
+    more inclusive future.
+  </p>
+  <p>
+    GBL seeks to address environmental, technological, economic
+    and social challenges by promoting environmental conservation,
+    digital innovation, entrepreneurship and community empowerment.
+  </p>
+  <p>
+    We believe that young people and communities can become
+    important drivers of sustainable development when equipped
+    with knowledge, practical skills and opportunities.
+  </p>
 </section>
 
-<section class="section">
-    <h2>Our Financial Accountability Principles</h2>
-    <ul>
-        <li>Accurate financial record keeping.</li>
-        <li>Transparent reporting of income and expenditure.</li>
-        <li>Responsible management of donor contributions.</li>
-        <li>Proper procurement and payment procedures.</li>
-        <li>Internal financial monitoring.</li>
-        <li>Independent external audits when conducted.</li>
-        <li>Compliance with applicable Ugandan laws.</li>
-    </ul>
+<section>
+  <h2>2. Our Vision</h2>
+  <p>
+    A greener, smarter and more sustainable Africa where communities
+    use innovation, technology and entrepreneurship to create
+    lasting solutions to development challenges.
+  </p>
 </section>
 
-<section class="section">
-    <h2>Financial Reports and Documents</h2>
-
-    <div class="report">
-        <h3>Annual Financial Statements</h3>
-        <p>Annual summaries of organisational income,
-        expenditure, assets and liabilities.</p>
-        <p><strong>Status:</strong> To be published when approved.</p>
-    </div>
-
-    <div class="report">
-        <h3>Independent Audit Reports</h3>
-        <p>Independent assessments of GBL's financial
-        records and financial management.</p>
-        <p><strong>Status:</strong> No completed audit report
-        has been published on this page.</p>
-    </div>
-
-    <div class="report">
-        <h3>Project Financial Reports</h3>
-        <p>Financial reports showing how project resources
-        are allocated and utilised.</p>
-        <p><strong>Status:</strong> To be published when available.</p>
-    </div>
-
-    <div class="report">
-        <h3>Donor Accountability Reports</h3>
-        <p>Reports detailing the utilisation of grants,
-        donations and partnership contributions.</p>
-        <p><strong>Status:</strong> To be published when available.</p>
-    </div>
+<section>
+  <h2>3. Our Mission</h2>
+  <p>
+    To empower young people and communities through environmental
+    education, circular economy solutions, digital skills,
+    entrepreneurship and inclusive development initiatives.
+  </p>
 </section>
 
-<section class="section">
-    <h2>Audit and Reporting Status</h2>
-    <div class="status">
-        <strong>Important Notice:</strong>
-        GBL will publish verified financial statements
-        and independent audit reports once they have
-        been prepared, reviewed and approved.
-        No unaudited document will be presented as an
-        independent audit report.
+<section>
+  <h2>4. Our Objectives</h2>
+  <ul>
+    <li>Promote environmental conservation and climate action.</li>
+    <li>Encourage recycling and responsible waste management.</li>
+    <li>Expand access to ICT and digital skills.</li>
+    <li>Promote youth entrepreneurship and innovation.</li>
+    <li>Support community participation in sustainable development.</li>
+    <li>Build partnerships that advance inclusive development.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. Our Core Values</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Integrity</h3>
+      <p>Acting honestly and responsibly in everything we do.</p>
     </div>
+    <div class="card">
+      <h3>Transparency</h3>
+      <p>Promoting openness and accountability in our work.</p>
+    </div>
+    <div class="card">
+      <h3>Innovation</h3>
+      <p>Encouraging creative solutions to community challenges.</p>
+    </div>
+    <div class="card">
+      <h3>Sustainability</h3>
+      <p>Protecting resources for present and future generations.</p>
+    </div>
+    <div class="card">
+      <h3>Inclusion</h3>
+      <p>Encouraging equal participation and opportunity.</p>
+    </div>
+    <div class="card">
+      <h3>Collaboration</h3>
+      <p>Working together with communities and development partners.</p>
+    </div>
+  </div>
 </section>
 
-<section class="section">
-    <h2>Our Accountability Promise</h2>
-    <p>
-    We promise to uphold integrity, prevent misuse of
-    organisational resources and promote responsible
-    financial management. We welcome accountability
-    and constructive engagement from donors, partners
-    and the communities we serve.
-    </p>
+<section>
+  <h2>6. Our Areas of Focus</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Environment and Climate Action</h3>
+      <p>Environmental awareness, conservation, recycling and circular economy practices.</p>
+    </div>
+    <div class="card">
+      <h3>ICT and Digital Innovation</h3>
+      <p>Digital literacy, technology education and practical innovation.</p>
+    </div>
+    <div class="card">
+      <h3>Youth Entrepreneurship</h3>
+      <p>Business skills, creativity and enterprise development.</p>
+    </div>
+    <div class="card">
+      <h3>Community Empowerment</h3>
+      <p>Inclusive education, participation and sustainable livelihoods.</p>
+    </div>
+  </div>
 </section>
 
-<section class="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Organisation:</strong> Green Circular Lab (GBL)</p>
-    <p><strong>Country:</strong> Uganda</p>
-    <p><strong>Email:</strong>
-    <a href="mailto:tuhaiseatugonza4@gmail.com">
-    tuhaiseatugonza4@gmail.com</a></p>
-    <p><strong>Phone:</strong> +256 764 915 894</p>
-    <p><strong>Website:</strong>
+<section>
+  <h2>7. Our Commitment</h2>
+  <p>
+    GBL is committed to integrity, responsible leadership,
+    transparency and meaningful community participation.
+    We aim to develop practical initiatives, build partnerships
+    and contribute to sustainable development in Uganda and Africa.
+  </p>
+  <p>
+    Our programmes and projects will be developed and implemented
+    progressively as resources, partnerships and organisational
+    capacity become available.
+  </p>
+</section>
+
+<section>
+  <h2>8. Contact Information</h2>
+  <p><strong>Organisation:</strong> Green Circular Lab (GBL)</p>
+  <p><strong>Country:</strong> Uganda</p>
+  <p><strong>Email:</strong> tuhaiseatugonza4@gmail.com</p>
+  <p><strong>Phone / WhatsApp:</strong> +256 764 915 894</p>
+  <p><strong>Website:</strong>
     <a href="https://tuhaiseatugonza4-gif.github.io/gbl-website/">
-    Visit GBL</a></p>
+      Visit GBL Website
+    </a>
+  </p>
 </section>
 
 </main>
 
 <footer>
-    <p>© 2026 Green Circular Lab (GBL). All Rights Reserved.</p>
-    <p>Integrity in Action. Transparency in Leadership.</p>
+  <p>© 2026 Green Circular Lab (GBL). All Rights Reserved.</p>
+  <p>Integrity in Action. Transparency in Leadership.</p>
 </footer>
 
 </body>
