@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact Us | Green Circular Lab</title>
+
+<meta name="description" content="Contact Green Circular Lab Uganda for partnerships, donations, volunteering and collaboration opportunities.">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f8f3;
+    color: #29382d;
+    line-height: 1.7;
+}
+
+header {
+    background: white;
+    text-align: center;
+    padding: 22px;
+}
+
+header h1 {
+    color: #075b35;
+    margin: 0;
+}
+
+header p {
+    color: #36864c;
+    font-style: italic;
+}
+
+nav {
+    background: #064526;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px 12px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b7ef76;
+}
+
+.hero {
+    background:
+    linear-gradient(rgba(0,55,25,.7),rgba(0,55,25,.7)),
+    url("https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1600")
+    center/cover;
+
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px 18px;
+}
+
+.section-title {
+    color: #075b35;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.intro {
+    background: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.contact-card {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+.contact-card h3 {
+    color: #08743f;
+}
+
+.contact-card a {
+    color: #08743f;
+    font-weight: bold;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+.contact-image {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.enquiry {
+    background: white;
+    padding: 28px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.enquiry h2 {
+    color: #075b35;
+}
+
+.enquiry label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.enquiry input,
+.enquiry select,
+.enquiry textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccd9ce;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.enquiry textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.button {
+    display: inline-block;
+    background: #08743f;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    padding: 13px 25px;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #064526;
+}
+
+.whatsapp {
+    background: #16813e;
+    color: white !important;
+}
+
+.note {
+    background: #fff6dd;
+    border-left: 5px solid #d5a324;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer {
+    background: #063b25;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 35px;
+}
+
+footer a {
+    color: #b7ef76;
+}
+
+@media(max-width:600px) {
+    .hero h2 {
+        font-size: 29px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>GREEN CIRCULAR LAB (GBL)</h1>
+    <p>Innovating Today for a Greener and Better Tomorrow</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="projects.html">Projects</a>
+    <a href="finance.html">Financial Reports</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<section class="hero">
+    <h2>Contact Green Circular Lab</h2>
+    <p>Let's Connect, Collaborate and Create Lasting Impact</p>
+</section>
+
+<main class="container">
+
+<section class="intro">
+    <h2 class="section-title">We Would Love to Hear From You</h2>
+
+    <p>
+    Green Circular Lab welcomes communication from
+    individuals, organisations, government institutions,
+    development partners, donors, schools, volunteers
+    and community members.
+    </p>
+
+    <p>
+    Contact us to explore partnerships, support our
+    proposed programmes or learn more about our work
+    in environmental conservation, climate action,
+    ICT and entrepreneurship.
+    </p>
+</section>
+
+<h2 class="section-title">Our Contact Information</h2>
+
+<section class="contact-grid">
+
+    <div class="contact-card">
+        <h3>Email Address</h3>
+        <p>Send us an email for enquiries and collaboration.</p>
+        <a href="mailto:tuhaiseatugonza4@gmail.com">
+        tuhaiseatugonza4@gmail.com</a>
+    </div>
+
+    <div class="contact-card">
+        <h3>Telephone</h3>
+        <p>Reach our organisation by phone.</p>
+        <a href="tel:+256764915894">
+        +256 764 915 894</a>
+    </div>
+
+    <div class="contact-card">
+        <h3>WhatsApp</h3>
+        <p>Connect with us through WhatsApp.</p>
+        <a class="button whatsapp"
+        href="https://wa.me/256764915894"
+        target="_blank" rel="noopener">
+        Chat on WhatsApp</a>
+    </div>
+
+    <div class="contact-card">
+        <h3>Location</h3>
+        <p><strong>Country:</strong> Uganda</p>
+        <p>Contact us for further location details.</p>
+    </div>
+
+</section>
+
+<img class="contact-image"
+src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1400"
+alt="People collaborating and discussing development projects">
+
+<section class="enquiry">
+    <h2>Send Us an Enquiry</h2>
+
+    <p>
+    Use this form to prepare an enquiry through your
+    email application. Your message will not be sent
+    automatically.
+    </p>
+
+    <form action="mailto:tuhaiseatugonza4@gmail.com"
+    method="post" enctype="text/plain">
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name"
+        name="Full Name" placeholder="Enter your full name"
+        required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email"
+        name="Email" placeholder="Enter your email address"
+        required>
+
+        <label for="organisation">Organisation (Optional)</label>
+        <input type="text" id="organisation"
+        name="Organisation"
+        placeholder="Your organisation or institution">
+
+        <label for="subject">Type of Enquiry</label>
+        <select id="subject" name="Enquiry Type" required>
+            <option value="">Select enquiry type</option>
+            <option>Partnership Opportunity</option>
+            <option>Donation and Sponsorship</option>
+            <option>Volunteering</option>
+            <option>Environmental Conservation</option>
+            <option>ICT and Digital Skills</option>
+            <option>Entrepreneurship</option>
+            <option>General Enquiry</option>
+        </select>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="Message"
+        placeholder="Write your message here..."
+        required></textarea>
+
+        <button type="submit" class="button">
+        Send Enquiry by Email
+        </button>
+
+    </form>
+
+    <div class="note">
+        <strong>Note:</strong>
+        This form uses your device's email application.
+        A proper online submission system can be added later.
+    </div>
+</section>
+
+<section class="enquiry">
+    <h2>Partnership and Collaboration</h2>
+
+    <p>
+    We welcome partnerships with government institutions,
+    NGOs, schools, universities, private companies,
+    foundations and international development agencies.
+    </p>
+
+    <p>
+    Together, we can advance sustainable development,
+    environmental protection, digital innovation
+    and community empowerment.
+    </p>
+
+    <a class="button"
+    href="mailto:tuhaiseatugonza4@gmail.com?subject=GBL%20Partnership%20Enquiry">
+    Discuss a Partnership
+    </a>
+</section>
+
+</main>
+
+<footer>
+    <p><strong>GREEN CIRCULAR LAB (GBL)</strong></p>
+    <p>Uganda</p>
+    <p>
+    Email: tuhaiseatugonza4@gmail.com
+    </p>
+    <p>Phone: +256 764 915 894</p>
+    <p>
+    © 2026 Green Circular Lab. All Rights Reserved.
+    </p>
+    <p>Integrity in Action. Transparency in Leadership.</p>
+</footer>
+
+</body>
+</html>
